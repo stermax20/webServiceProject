@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(13, 13, 127);
+    font-family: 'Gowun Dodum', '돋움';
+}
+
+a {
+    all: unset;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.head-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-container .head-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    white-space: nowrap;
+}
+
+.head-bymh {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.head-brand a {
+    color: black;
+}
+
+.head-container .head-logo {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 12%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem 0.1rem 1rem;
+    box-shadow: 10px 10px 12px -5px rgba(25, 42, 70, 0.2);
+}
+
+.head-container .head-brand a:hover {
+    cursor: pointer;
+    color: #2ab1ff;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.main {
+    height: 360px;
+    background-size: cover;
+    background-position: 0 30%;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+
+section {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    background-color: transparent;
+}
+
+section .bk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .gb img {
+    margin: 5px 50px;
+    margin-top: 5rem;
+    width: 25rem;
+    height: 20rem;
+}
+
+section .by img {
+    margin: 5px 50px;
+    margin-top: 5rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.by p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.gb p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.by p:hover {
+    color: gold;
+}
+
+.gb p:hover {
+    color: gold;
+}
+
+.g-container {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+.section1.right {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+}
+
+section .arrow img {
+    width: 350px;
+    height: 150px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: lightgray;
+    opacity: 0.5;
+    margin-top: 187px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

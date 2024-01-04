@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(13, 13, 127);
+    -ms-overflow-style: none;
+    font-family: 'Gowun Dodum', '돋움';
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    all: unset;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.head-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-container .head-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    white-space: nowrap;
+}
+
+.head-bymh {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.head-brand a {
+    color: black;
+}
+
+.head-container .head-logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    width: 12%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem 0.1rem 1rem;
+    box-shadow: 10px 10px 12px -5px rgba(25, 42, 70, 0.2);
+}
+
+.head-container .head-brand a:hover {
+    cursor: pointer;
+    color: #2ab1ff;
+}
+
+section {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    background-color: transparent;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.main {
+    height: 360px;
+    background-size: cover;
+    background-position: 0 30%;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+
+section .bk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bk-container {
+    display: flex;
+}
+
+.by-container {
+    display: flex;
+}
+
+.by {
+    display: flex;
+}
+
+.rectangle-container1 {
+    margin-right: 230px;
+}
+
+.rectangle-container2 {
+    margin-right: -230px;
+}
+
+.rectangle {
+    width: 523px;
+    height: 120px;
+    background-color: #f9eded;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+
+.rectangle_1 {
+    width: 523px;
+    height: 120px;
+    background-color: #f9eded;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+
+.rectangle_2 {
+    width: 523px;
+    height: 120px;
+    background-color: #f9eded;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+
+.rectangle_3 {
+    width: 523px;
+    height: 120px;
+    background-color: #f9eded;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+
+.rectangle_4 {
+    width: 523px;
+    height: 120px;
+    background-color: #f9eded;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+
+.rectangle_5 {
+    width: 523px;
+    height: 120px;
+    background-color: #f9eded;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+
+.rectangle_6 {
+    width: 523px;
+    height: 120px;
+    background-color: #f9eded;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+
+.rectangle_7 {
+    width: 523px;
+    height: 120px;
+    background-color: #f9eded;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+
+.rectangle p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rectangle_1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rectangle_2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rectangle_3 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rectangle_4 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rectangle_5 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rectangle_6 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rectangle_7 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+.rectangle_side_text-container1 {
+    color: #fff;
+    margin-right: 650px;
+    margin-top: -400px;
+}
+
+.rectangle_side_text-container2 {
+    color: #fff;
+    margin-right: 450px;
+    margin-top: -400px;
+}
+
+.rectangle_side_text {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.rectangle_side_text_1 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 160px;
+}
+
+.rectangle_side_text_2 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.rectangle_side_text_3 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 160px;
+}
+
+.rectangle_side_text_4 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rectangle_side_text_5 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 220px;
+}
+
+.rectangle_side_text_6 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.rectangle_side_text_7 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 200px;
+}
+
+.rectangle_side_text_8 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.rectangle_side_text_9 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 200px;
+}
+
+.rectangle_side_text_10 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.rectangle_side_text_11 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 200px;
+}
+
+.Easter_egg {
+    margin-left: 1000px;
+    margin-top: 80px;
+}
